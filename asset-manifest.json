@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/me/static/css/main.74d54c21.css",
-    "main.js": "/me/static/js/main.021cfa8f.js",
+    "main.js": "/me/static/js/main.735baa8b.js",
     "static/js/453.5783c3fe.chunk.js": "/me/static/js/453.5783c3fe.chunk.js",
     "static/media/new-profile.png": "/me/static/media/new-profile.02dbfc2c0a4b408c2608.png",
     "static/media/uva.png": "/me/static/media/uva.f64cc2b7d39808708dce.png",
@@ -14,11 +14,11 @@
     "static/media/UHR-Logo.png": "/me/static/media/UHR-Logo.bdfddf347078c6c28049.png",
     "index.html": "/me/index.html",
     "main.74d54c21.css.map": "/me/static/css/main.74d54c21.css.map",
-    "main.021cfa8f.js.map": "/me/static/js/main.021cfa8f.js.map",
+    "main.735baa8b.js.map": "/me/static/js/main.735baa8b.js.map",
     "453.5783c3fe.chunk.js.map": "/me/static/js/453.5783c3fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74d54c21.css",
-    "static/js/main.021cfa8f.js"
+    "static/js/main.735baa8b.js"
   ]
 }
