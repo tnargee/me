@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.74d54c21.css",
+    "main.js": "/me/static/js/main.021cfa8f.js",
+    "static/js/453.5783c3fe.chunk.js": "/me/static/js/453.5783c3fe.chunk.js",
+    "static/media/new-profile.png": "/me/static/media/new-profile.02dbfc2c0a4b408c2608.png",
+    "static/media/uva.png": "/me/static/media/uva.f64cc2b7d39808708dce.png",
+    "static/media/ttt-logo.png": "/me/static/media/ttt-logo.8b6d9f4aaa8d231b8ccf.png",
+    "static/media/coursereview-logo.png": "/me/static/media/coursereview-logo.29ce8fadf005b5d08630.png",
+    "static/media/babylon-logo.png": "/me/static/media/babylon-logo.3959bd0c3e430e72df52.png",
+    "static/media/dc.png": "/me/static/media/dc.7865e732e6f50561cb64.png",
+    "static/media/vester.png": "/me/static/media/vester.1968d4bbd73734de7e71.png",
+    "static/media/recipez-logo.png": "/me/static/media/recipez-logo.9c5924148be4032f9ec1.png",
+    "static/media/UHR-Logo.png": "/me/static/media/UHR-Logo.bdfddf347078c6c28049.png",
+    "index.html": "/me/index.html",
+    "main.74d54c21.css.map": "/me/static/css/main.74d54c21.css.map",
+    "main.021cfa8f.js.map": "/me/static/js/main.021cfa8f.js.map",
+    "453.5783c3fe.chunk.js.map": "/me/static/js/453.5783c3fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74d54c21.css",
+    "static/js/main.021cfa8f.js"
+  ]
+}
