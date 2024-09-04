@@ -7,16 +7,20 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
 
 extend({ MeshLineGeometry, MeshLineMaterial });
 
-useGLTF.preload('/model.glb');
-useTexture.preload('/bandtexture.jpg');
+const modelUrl = process.env.PUBLIC_URL + '/model.glb';
+const bandtexture = process.env.PUBLIC_URL + '/bandtexture.jpg';
+const portfoliobadge = process.env.PUBLIC_URL + '/portfolio-badge.png'
+
+useGLTF.preload(modelUrl);
+useTexture.preload(bandtexture);
 
 function Band({ maxSpeed = 50, minSpeed = 10 }) {
   const band = useRef(), fixed = useRef(), j1 = useRef(), j2 = useRef(), j3 = useRef(), card = useRef();
   const vec = new THREE.Vector3(), ang = new THREE.Vector3(), rot = new THREE.Vector3(), dir = new THREE.Vector3();
   const segmentProps = { type: 'dynamic', canSleep: true, colliders: false, angularDamping: 2, linearDamping: 2 };
-  const { nodes, materials } = useGLTF('/model.glb');
-  const texture = useTexture('/bandtexture.jpg');
-  const badgeTexture = useTexture('/portfolio-badge.png');
+  const { nodes, materials } = useGLTF(modelUrl);
+  const texture = useTexture(bandtexture);
+  const badgeTexture = useTexture(portfoliobadge);
   badgeTexture.flipY = false;
   const { width, height } = useThree((state) => state.size);
   const [curve] = useState(() => new THREE.CatmullRomCurve3([
